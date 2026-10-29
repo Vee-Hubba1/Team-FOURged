@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Team FOURged : Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- Header and navigation -->
+    <header>
+      <a class="logo" href="#home">Team FOURged</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero banner -->
+    <section class="hero" id="home">
+      <div class="stk" aria-hidden="true">
+        <i style="--r:-8deg;--d:.1s">JV</i>
+        <i style="--c:var(--sf);--on:var(--tx);--r:5deg;--d:.25s">ME</i>
+        <i style="--r:-4deg;--d:.4s">MZ</i>
+        <i style="--c:var(--sf);--on:var(--tx);--r:7deg;--d:.55s">BG</i>
+      </div>
+      <h1>Four people, Forged stronger</h1>
+      <p>
+        We are Team FOURged, a team of an animator, PC technician, developer and a tester. Pick a
+        teammate below to see who they are and what makes us a team.
+      </p>
+    </section>
+
+    <!-- Scrolling skills banner -->
+    <div class="strip" aria-hidden="true">
+      <div class="track">
+        <p>
+          Junior Animator  ✦  PC Technician  ✦  Back-End Dev  ✦  Prototyping  ✦  QA  ✦  SQL  ✦ APIs  ✦  Testing  ✦ 
+        </p>
+        <p>
+          Junior Animator  ✦  PC Technician  ✦  Back-End Dev  ✦  Prototyping  ✦  QA  ✦  SQL  ✦  APIs  ✦  Testing  ✦ 
+        </p>
+      </div>
+    </div>
+
+    <!-- About: group -->
+    <section class="wrap" id="about">
+      <h2>Why FOURged?</h2>
+      <p class="lead">
+        From the word "Forged", which is defined as creating something strong and lasting from hard work and dedication, we want to make this team the best that there can be by combining our shared expertise and skills to overcome any challenge. 
+      </p>
+      <div class="card">
+        <p>
+     The variety of our sets of skils is what seperates us from the other groups or teams of professionals. We comit and we get it done, that is who we are in this team. 
+        </p>
+      </div>
+    </section>
+
+    <!-- Team section -->
+    <section class="wrap" id="team">
+      <h2>Meet the team</h2>
+      <p class="lead">Select a member to open their profile.</p>
+
+      <!-- Hidden radio buttons: the checked one decides which profile is shown -->
+      <input class="pick" type="radio" name="m" id="m1" checked aria-label="James Martin Vinoya">
+      <input class="pick" type="radio" name="m" id="m2" aria-label="Maxine Joy Espero">
+      <input class="pick" type="radio" name="m" id="m3" aria-label="Manahel Eman Zulfiqar">
+      <input class="pick" type="radio" name="m" id="m4" aria-label="Benjie Garcia">
+
+      <!-- Member buttons (labels for the radio buttons above) -->
+      <div class="tabs">
+        <label for="m1">
+          <span class="av" style="background:var(--sf);color:var(--tx)"><img src="James.jpg" alt=""></span>
+          <b>James Martin Vinoya</b>
+          <small>Junior Animator</small>
+        </label>
+        <label for="m2">
+          <span class="av" style="background:var(--sf);color:var(--tx)"><img src="maxine.jpg" alt=""></span>
+          <b>Maxine Joy Espero</b>
+          <small>PC Technician</small>
+        </label>
+        <label for="m3">
+          <span class="av" style="background:var(--sf);color:var(--tx)"><img src="Muhammad.jpg" alt=""></span>
+          <b>Manahel Eman Zulfiqar</b>
+          <small>Back-End Developer</small>
+        </label>
+        <label for="m4">
+          <span class="av" style="background:var(--sf);color:var(--tx)"><img src="Benjie.jpg" alt=""></span>
+          <b>Benjie Garcia</b>
+          <small>QA and Project Manager</small>
+        </label>
+      </div>
+
+      <!-- Member profiles -->
+      <!-- Member: James Vinoya -->
+      <div class="panels">
+        <article class="panel minimal" id="p1">
+          <!-- Personal information -->
+          <aside class="card prof">
+            <div class="av"><img src="James.jpg" alt="Portrait of James Martin Vinoya"></div>
+            <h3>James Martin E Vinoya</h3>
+            <p class="role">Multimedia Designer and Team Lead</p>
+            <dl>
+              <dt>Age</dt>
+              <dd>18</dd>
+              <dt>Education</dt>
+              <dd>BS Entertainment and Multimedia Computing </dd>
+              <dt>Email</dt>
+              <dd>jamesmartin420@gmail.com</dd>
+              <dt>Location</dt>
+              <dd>Binalonan, Pangasinan</dd>
+            </dl>
+            <a class="btn" href="mailto:jamesmartin420@gmail.com">Say hello</a>
+          </aside>
+          <div class="main">
+
+            <!-- Career objective -->
+            <section class="card">
+              <h4>Career objective</h4>
+              <p>
+                To accomplish my work within my moral grounds and without bringing others down and to apply my skills effectively to produce products that exceed beyond excellence.
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="card">
+              <h4>Skills</h4>
+              <ul class="sk">
+                <li>3d animator using Blender3D</li>
+                <li>Video editing with Adobe Aftereffects</li>
+                <li>HTML and CSS programmer</li>
+              </ul>
+            </section>
+
+            <!-- Experience -->
+            <section class="card">
+              <h4>Experience</h4>
+              <ul class="tl">
+                 <li>
+                  <b>Intern, Key Visuals Department</b>
+                  <em>Cover Corp, 2022-2023</em>
+                  <p>Assisted the key visuals team with artwork and visual assets for concerts and other performances.</p>
+                </li>
+                <li>
+                  <b>Junior Animator</b>
+                  <em>Hololive Production, 2023 to present</em>
+                  <p>Created animated videos for the company's social media platforms.</p>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Works -->
+            <section class="card">
+              <h4>Works</h4>
+              <div class="works">
+                <div class="work" tabindex="0">
+                  <small>Animated Video</small>
+                  <h5>HOLOGRA</h5>
+                  <p>A series of animated videos featuring the talents of hololive corporation.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>Visuals and Effects</small>
+                  <h5>Serendipity</h5>
+                  <p>Live concert performance with various visual effects for on-screen performance.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>Animated Music Video</small>
+                  <h5>Hololive Orginial Songs</h5>
+                  <p>Music videos for the talent's orginal compositions and songs.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!-- Member: Maxine Esperro -->
+        <article class="panel code" id="p2">
+          <!-- Personal information -->
+          <aside class="card prof">
+            <div class="av"><img src="maxine.jpg" alt="Portrait of Maxine Joy Espero"></div>
+            <h3>Maxine Joy T. Espero</h3>
+            <p class="role">PC Technician</p>
+            <dl>
+              <dt>Age</dt>
+              <dd>19</dd>
+              <dt>Education</dt>
+              <dd>BS Information Technology</dd>
+              <dt>Email</dt>
+              <dd>esperomaxinejoy@gmail.com</dd>
+              <dt>Location</dt>
+              <dd>San Manuel, Pangasinan</dd>
+            </dl>
+            <a class="btn" href="mailto:esperomaxinejoy@gmail.com">Say hello</a>
+          </aside>
+          <div class="main">
+
+            <!-- Career objective -->
+            <section class="card">
+              <h4>Career objective</h4>
+              <p>
+                A dedicated IT student with a strong passion for technology, programming and computer systems, eager to apply technical knowledge, problem-solving and teamwork in a professional environment.
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="card">
+              <h4>Skills</h4>
+              <ul class="sk">
+                <li>Computer Troubleshooting</li>
+                <li>Computer Hardware Repairs</li>
+                <li>HTML and CSS Programmer</li>
+                <li>Skilled Photo Editing</li>
+              </ul>
+            </section>
+
+            <!-- Experience -->
+            <section class="card">
+              <h4>Experience</h4>
+              <ul class="tl">
+                 <li>
+                  <b>Computer Shop Repair</b>
+                  <em>CyberZone, 2024</em>
+                  <p>Repaired minor to major component failure on computers both software and hardware.</p>
+                </li>
+                <li>
+                  <b>IT Lab Assistant</b>
+                  <em>Campus IT Lab, 2025</em>
+                  <p>Fixed common PC issues, including removing forgotten computer passwords.</p>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Works -->
+            <section class="card">
+              <h4>Works</h4>
+              <div class="works">
+
+                <div class="work" tabindex="0">
+                  <small>Website</small>
+                  <h5>Circuit Resume</h5>
+                  <p>A resume page with gear and circuit-board graphics and a profile photo.</p>
+                </div>
+
+                <div class="work" tabindex="0">
+                  <small>Tool</small>
+                  <h5>PC Care Checklist</h5>
+                  <p>A step-by-step troubleshooting guide for common computer problems.</p>
+                </div>
+
+                <div class="work" tabindex="0">
+                  <small>Design</small>
+                  <h5>Gear Icon Pack</h5>
+                  <p>A set of tech-themed icons edited and exported for web use.</p>
+                </div>
+
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!-- Member: Manahel Emman -->
+        <article class="panel glass" id="p3">
+          <!-- Personal information -->
+          <aside class="card prof">
+            <div class="av"><img src="Muhammad.jpg" alt="Portrait of Manahel Eman Zulfiqar"></div>
+            <h3>Manahel Eman S. Muhammad Zulfiqar</h3>
+            <p class="role">Back-End Developer</p>
+            <dl>
+              <dt>Age</dt>
+              <dd>18</dd>
+              <dt>Education</dt>
+              <dd>BS Information Technology</dd>
+              <dt>Email</dt>
+              <dd>ezulfiqar89@gmail.com</dd>
+              <dt>Location</dt>
+              <dd>Bobonan, Pangasinan</dd>
+            </dl>
+            <a class="btn" href="mailto:ezulfiqar89@gmail.com">Say hello</a>
+          </aside>
+          <div class="main">
+            <!-- Career objective -->
+            <section class="card">
+              <h4>Career objective</h4>
+              <p>
+                To become a professional in the technical field and to apply the skills I have learned.
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="card">
+              <h4>Skills</h4>
+              <ul class="sk">
+                <li>Networking Beginner</li>
+                <li>Node.js and SQL Programmer</li>
+                <li>Technical Support</li>
+              </ul>
+            </section>
+
+            <!-- Experience -->
+            <section class="card">
+              <h4>Experience</h4>
+              <ul class="tl">
+                <li>
+                  <b>Office Intern</b>
+                  <em>LGU Binalonan, 2024</em>
+                  <p>Supported office operations and technical tasks at the local government unit.</p>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Works -->
+            <section class="card">
+              <h4>Works</h4>
+              <div class="works">
+                <div class="work" tabindex="0">
+                  <small>System</small>
+                  <h5>Records Tracker</h5>
+                  <p>A digital records system with search and role-based access.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>API</small>
+                  <h5>Barangay API</h5>
+                  <p>Resident and request endpoints with token-based login.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>Tool</small>
+                  <h5>Net Mapper</h5>
+                  <p>A simple office network map with device status notes.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!-- Member: Benjieee -->
+        <article class="panel notes" id="p4">
+          <!-- Personal information -->
+          <aside class="card prof">
+            <div class="av"><img src="Benjie.jpg" alt="Portrait of Benjie Garcia"></div>
+            <h3>Benjie A. Garcia</h3>
+            <p class="role">QA Tester and Project Manager</p>
+            <dl>
+              <dt>Age</dt>
+              <dd>22</dd>
+              <dt>Education</dt>
+              <dd>BS Information Technology</dd>
+              <dt>Email</dt>
+              <dd>benjiegarcia2004@gmail.com</dd>
+              <dt>Location</dt>
+              <dd>Poblacion East, Umingan, Pangasinan</dd>
+            </dl>
+            <a class="btn" href="mailto:benjiegarcia2004@gmail.com">Say hello</a>
+          </aside>
+          <div class="main">
+            <!-- Career objective -->
+            <section class="card">
+              <h4>Career objective</h4>
+              <p>
+             To stay calm under pressure and keep teams moving by combining polite, attentive communication with careful testing
+              </p>
+            </section>
+
+            <!-- Skills -->
+            <section class="card">
+              <h4>Skills</h4>
+              <ul class="sk">
+                <li>Test Planner</li>
+                <li>Documentation Expert</li>
+                <li>Great Communication</li>
+              </ul>
+            </section>
+
+            <!-- Experience -->
+            <section class="card">
+              <h4>Experience</h4>
+              <ul class="tl">
+                <li>
+                  <b>QA Intern</b>
+                  <em>Brightside Digital, 2025</em>
+                  <p>Ran manual test cycles and filed bugs with clear repro steps.</p>
+                </li>
+                <li>
+                  <b>Scrum Master</b>
+                  <em>Class Projects, 2023</em>
+                  <p>Ran sprints and kept five-person teams on schedule.</p>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Works -->
+            <section class="card">
+              <h4>Works</h4>
+              <div class="works">
+                <div class="work" tabindex="0">
+                  <small>QA</small>
+                  <h5>Bug Hunt</h5>
+                  <p>A shared log of bugs with clear steps to reproduce them.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>Tool</small>
+                  <h5>Sprint Board</h5>
+                  <p>A simple kanban template for planning and tracking sprints.</p>
+                </div>
+                <div class="work" tabindex="0">
+                  <small>Docs</small>
+                  <h5>Team Handbook</h5>
+                  <p>Onboarding guide covering roles, workflow and code standards.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="wrap end" id="contact">
+      <h2>Let’s  Forge something together</h2>
+      <p class="lead"> 
+        Have a project in mind? Write to the whole team, or message any member from their
+        profile.
+      </p>
+      <div class="row">
+        <a class="btn" href="mailto:businessteamfourged@gmail.com">Email the team</a>
+        <a class="btn alt" href="#home">Back to top</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>© 2026 Team FOURged. All rights reserved.</footer>
+  </body>
+
+</html>
