@@ -278,7 +278,7 @@
         padding: 22px;
       }
 
-      /* ===== Team selector (radio buttons switch the profiles, CSS only) ===== */
+      /* ===== Team selector (radio buttons switch the profiles) ===== */
       .pick {
         position: absolute;
         opacity: 0;
@@ -584,9 +584,8 @@
         margin-top: 8px;
       }
 
-      /* ===== Member themes: every profile has its own design ===== */
+      /* ===== Member themes: ==== */
 
-      /* Each member button takes the accent color of its profile */
       .tabs label:nth-child(1) {
         --c: #ff5c8a;
       }
@@ -605,7 +604,7 @@
         --on: #14142b;
       }
 
-      /* Theme 1: minimal and colorful (Alexa) */
+      /* Theme 1: Vinoya */
       .minimal {
         --bg: #ffffff;
         --sf: #ffffff;
@@ -620,7 +619,6 @@
         background: #ff7a35;
       }
 
-      /* Paint-splash backdrop: orange base, green and yellow splashes, white dots and sparkles */
       .minimal::before {
         content: "";
         position: absolute;
@@ -636,7 +634,6 @@
           linear-gradient(160deg, #ff7a35, #ff6128 55%, #ff8a3a);
       }
 
-      /* Frosted cards so the splashes show through */
       .minimal .card {
         border-width: 1px;
         border-color: rgba(255, 255, 255, .7);
@@ -732,7 +729,7 @@
         box-shadow: none;
       }
 
-      /* Theme 2: code editor (Marco) */
+      /* Theme 2: Maxine */
       .code {
         --bg: #0d1117;
         --sf: #161b22;
@@ -855,7 +852,7 @@
         box-shadow: none;
       }
 
-      /* Theme 3: frosted glass on a moving gradient (Bianca) */
+      /* Theme 3: Muhammad */
       .glass {
         --bg: rgba(255, 255, 255, .14);
         --sf: rgba(255, 255, 255, .16);
@@ -934,7 +931,7 @@
         transform: scale(.96);
       }
 
-      /* Theme 4: sticky notes on graph paper (Jared) */
+      /* Theme 4: Benjie */
       .notes {
         --bg: #f4f7fb;
         --sf: #ffffff;
